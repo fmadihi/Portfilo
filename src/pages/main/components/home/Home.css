@@ -1,5 +1,6 @@
 .home {
   max-width: 80rem;
+  height: 100%;
   position: relative;
 }
 .homeContent {
@@ -31,6 +32,7 @@
   border: none;
   transition: all 0.2s linear;
   cursor: pointer;
+  border-radius: 8px;
 }
 .ExplorBTN {
   background: linear-gradient(
@@ -51,7 +53,7 @@
 .ConnectBTN {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
 }
