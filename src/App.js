@@ -7,8 +7,6 @@ import Main from './pages/main/Main'
 function App () {
   return (
     <BrowserRouter>
-
-  
       <Header className="flex flex-row-reverse flex-nowrap justify-evenly items-center bg-red-200" />
       <Main />
       {/* <div className='App'>

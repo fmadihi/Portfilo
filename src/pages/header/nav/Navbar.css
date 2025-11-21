@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar{
     /* gap: 15px; */
     list-style: none;
@@ -7,4 +8,15 @@
     margin-left: 4px;
     padding: 8px 16px;
     font-size: 16px;
+=======
+.navbar{
+    /* gap: 15px; */
+    list-style: none;
+}
+.liNav{
+    color: #ffffff;
+    margin-left: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+>>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15
 }

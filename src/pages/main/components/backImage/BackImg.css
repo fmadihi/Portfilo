@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 
 .backImg{
     width:100%;
     min-height:890px;
     background-image: linear-gradient(135deg, rgba(99, 102, 241, 0.8), rgba(139, 69, 19, 0.6)), url('../../../../../public/image/backHeader.jpg');
     
+=======
+
+.backImg{
+    width:100%;
+    min-height:890px;
+    background-image: linear-gradient(135deg, rgba(99, 102, 241, 0.8), rgba(139, 69, 19, 0.6)), url('../../../../../public/image/backHeader.jpg');
+    
+>>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15
 }

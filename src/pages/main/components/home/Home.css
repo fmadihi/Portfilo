@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
   max-width: 80rem;
   height: 100%;
@@ -60,3 +61,67 @@
 .ConnectBTN:hover {
     backdrop-filter: blur(100px);
 }
+=======
+.home {
+  max-width: 80rem;
+  height: 100%;
+  position: relative;
+}
+.homeContent {
+  max-width: 56rem;
+}
+.myName {
+  margin-bottom: 1.5rem;
+}
+.myJob {
+  color: #f3f4f6;
+  font-size: 30px;
+}
+.aboutMe {
+  color: #e5e7eb;
+  font-size: 24px;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.BTN {
+  width: 240px;
+  height: 60px;
+  padding: 16px 32px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.ExplorBTN {
+  background: linear-gradient(
+    100deg,
+    rgba(127, 34, 203, 1) 5%,
+    rgba(189, 24, 94, 1) 100%,
+    rgba(189, 24, 94, 1) 30%
+  );
+}
+.ExplorBTN:hover {
+  background: linear-gradient(
+    100deg,
+    rgba(101, 29, 161, 1) 5%,
+    rgba(158, 22, 79, 1) 100%,
+    rgba(145, 22, 73, 1) 30%
+  );
+}
+.ConnectBTN {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+.ConnectBTN:hover {
+    backdrop-filter: blur(100px);
+}
+>>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15

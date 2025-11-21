@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --tw-backdrop-blur: blur(4px);
   --tw-text-opacity: 1;
@@ -33,3 +34,40 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   color: rgb(147 51 234 / var(--tw-text-opacity, 1));
 }
+=======
+:root {
+  --tw-backdrop-blur: blur(4px);
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+}
+
+.talkBtn {
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+    var(--tw-backdrop-sepia);
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1)); */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  cursor: pointer;
+  /* display: flex; */
+  transition-duration: 0.2s;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.talkBtn:hover {
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
+}
+>>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15
