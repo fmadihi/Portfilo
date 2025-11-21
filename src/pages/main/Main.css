@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .mainC{
     display: flex;
     flex-direction: column;
@@ -6,12 +5,3 @@
     align-items: center;
 
 }
-=======
-.mainC{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
->>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15

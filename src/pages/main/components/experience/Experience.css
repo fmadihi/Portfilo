@@ -1,12 +1,13 @@
-<<<<<<< HEAD
 .myExperience {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 30px;
+  /* position: absolute; */
+  /* bottom:-20px; */
+  gap: 8px;
+
 }
 
 .myExperience > div {
@@ -30,36 +31,3 @@
   font-size: 14px;
 }
 
-=======
-.myExperience {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  bottom: 30px;
-}
-
-.myExperience > div {
-  width: 200px;
-  height: 84px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.myExperience > div > div:nth-of-type(1) {
-  color: #d8b4fe;
-  font-size: 24px;
-}
-.myExperience > div > div:nth-of-type(2) {
-  color: #f5f5f7;
-  font-size: 14px;
-}
-
->>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15

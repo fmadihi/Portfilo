@@ -1,22 +1,10 @@
-<<<<<<< HEAD
 .header{
     width:100vw;
     height: 64px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
     top: 0px;
-=======
-.header{
-    width:100vw;
-    height: 64px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-    top: 0px;
->>>>>>> 65a1197eff0dc0aa7b18b469d8ce4621e7055d15
 }
